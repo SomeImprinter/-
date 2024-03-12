@@ -1,0 +1,50 @@
+.bordered-text {
+  border: 1px solid rgb(255, 0, 0); /* Толщина и цвет рамки */
+  padding: 1px 110px; /* Отступ сверху/снизу 10px, слева/справа 20px */
+}
+.invade {
+  transform: rotate(15deg);
+  max-width: 100%;
+  height: auto;
+  position: relative; /* Размещение относительно своего обычного положения */
+  top: 50px; /* Расстояние сверху в пикселях */
+  left: 100px; /* Расстояние слева в пикселях */ /* Угол поворота в градусах */
+}
+.c {
+  transform: rotate(0deg);
+  max-width: 100%;
+  height: auto;
+  position: relative;
+  top: px;
+  left: px;
+}
+.c2 {
+  max-width: 100%;
+  height: auto;
+  position: relative;
+  top: -600px;
+  left: -500px;
+}
+.python {
+  transform: rotate(deg);
+  max-width: 100%;
+  height: auto;
+  position: relative;
+  top: -130px;
+  left: -80px;
+}
+.python2 {
+  transform: rotate(deg);
+  max-width: 100%;
+  height: auto;
+  position: relative;
+  top: -500px;
+  left: -530px;
+}
+.javascript{
+  max-width: 100%;
+  height: auto;
+  position: relative;
+  top: -350px;
+  left: -500px;
+}
