@@ -32,6 +32,12 @@
   a {
   color: blue;
 }
+@media only screen and (max-width: 600px) {
+    /* Применяем стили только для экранов шириной до 600px (примерно для мобильных устройств) */
+    img {
+      max-width: 80%; /* Уменьшаем максимальную ширину картинки на маленьких экранах */
+    }
+  }
 </style>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=PT+Mono&display=swap">
 </head>
