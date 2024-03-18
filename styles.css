@@ -12,7 +12,7 @@
   height: auto;
   position: relative;
   top: -600px;
-  left: -400px;
+  left: 700px;
 }
 .c2 {
   max-width: 100%;
@@ -48,4 +48,45 @@
   max-width: 800px;
   margin: 20px auto;
   padding: 0 20px;
+}
+.dragonleft{
+  transform: scaleX(-1);
+  max-width: 100%;
+  height: auto;
+  position: relative;
+  top: -1360px;
+  left: -200px;
+}
+.pokemonright{
+  max-width: 100%;
+  height: auto;
+  position: relative;
+  top: -1350px;
+  left: 660px;
+}
+.pokemon{
+  max-width: 100%;
+  height: auto;
+  position: relative;
+  top: -500px;
+  left: 400px;
+}
+.pokemon2{
+  transform: scaleX(-1);
+  max-width: 100%;
+  height: auto;
+  position: relative;
+  top: -500px;
+  left: -100px;
+}
+.section {
+    scrollbar-color: #6969dd #e0e0e0;
+    scrollbar-width: thin;
+}
+body::-webkit-scrollbar {
+  width: 6px;               /* ширина scrollbar */
+}
+body::-webkit-scrollbar-thumb {
+  background-color: orange;    /* цвет плашки */
+  border-radius: 20px;       /* закругления плашки */
 }
